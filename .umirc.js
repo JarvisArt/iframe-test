@@ -9,6 +9,8 @@ export default {
       component: '../layouts/index',
       routes: [
         { path: '/', component: '../pages/index' },
+        { path: '/a', component: '../pages/a' },
+        { path: '/b', component: '../pages/b' },
         { component: '../pages/404' }
       ]
     }
@@ -21,7 +23,7 @@ export default {
       dynamicImport: false,
       title: 'Umi',
       dll: false,
-      
+
       routes: {
         exclude: [
           /models\//,
